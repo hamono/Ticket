@@ -1,0 +1,19 @@
+.part-box{
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 230px;
+  background-color: white;
+}
+
+.part-item{
+  margin:10px 0;
+}
+
+.part-title{
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
