@@ -1,6 +1,6 @@
 ## 查看
 
-[github-page示例]("http://ticket.hamomo.top")
+[github-page示例](http://ticket.hamomo.top)
 
 ## 运行
 
