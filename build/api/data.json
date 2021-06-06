@@ -1,0 +1,19 @@
+{
+  "status":200,
+  "msg":"",
+  "data":{
+    "remoteTicket":{
+      "des":"可获得活动PPT等资料",
+      "price":9.99
+    },
+    "sponsor":{
+      "des":"获得品牌露出机会，详情联系相关负责人",
+      "price":9.99,
+      "tips":"仅剩2张"
+    },
+    "standardTicket":{
+      "des":"可获得活动现场参加活动的机会",
+      "price":0.99
+    }
+  }
+}
