@@ -7,8 +7,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": ["build/**", "CHANGELOG.md"],
-        "message": "Release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('zh-CN', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]"
+        "assets": ["build", "CHANGELOG.md"]
       }
     ],
 
