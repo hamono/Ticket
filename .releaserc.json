@@ -4,17 +4,16 @@
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
         "@semantic-release/changelog",
+        "@semantic-release/github",
         [
             "@semantic-release/git",
             {
-                "tarballDir": "build",
                 "assets": [
-                    "package.json",
+                    "build",
                     "CHANGELOG.md"
                 ],
                 "message": "Release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('zh-CN', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>"
             }
-        ],
-        "@semantic-release/github"
+        ]
     ]
 }
