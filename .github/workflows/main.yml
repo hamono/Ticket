@@ -28,7 +28,7 @@ jobs:
         run: yarn build
 
       - name: Push
-        run: git push main
+        run: git push origin main
           
       - name: Release
         env:
