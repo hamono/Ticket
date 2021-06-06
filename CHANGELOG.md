@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/hamono/Ticket/compare/v1.1.2...v1.2.0) (2021-06-06)
+
+
+### Features
+
+* 147 ([907b466](https://github.com/hamono/Ticket/commit/907b46690e76e2c009e6681a6c5776eed0ad9780))
+
 ## [1.1.2](https://github.com/hamono/Ticket/compare/v1.1.1...v1.1.2) (2021-06-06)
 
 
