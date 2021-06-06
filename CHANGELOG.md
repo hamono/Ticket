@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/hamono/Ticket/compare/v1.2.2...v1.2.3) (2021-06-06)
+
+
+### Bug Fixes
+
+* dede ([1d56bc1](https://github.com/hamono/Ticket/commit/1d56bc1504a814c7c5b55b0e2befa33030873f85))
+
 ## [1.2.2](https://github.com/hamono/Ticket/compare/v1.2.1...v1.2.2) (2021-06-06)
 
 
