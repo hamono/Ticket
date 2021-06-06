@@ -1,19 +1,21 @@
 {
-    "branches": "main",
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-        "@semantic-release/github",
-        [
-            "@semantic-release/git",
-            {
-                "assets": [
-                    "build",
-                    "CHANGELOG.md"
-                ],
-                "message": "Release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('zh-CN', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>"
-            }
-        ]
+  "branches": "main",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    [
+      "@semantic-release/github",
+      {
+        "assets": ["build/**", "CHANGELOG.md"]
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["build/**", "CHANGELOG.md"],
+        "message": "Release <%= nextRelease.version %> - <%= new Date().toLocaleDateString('zh-CN', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }) %> [skip ci]\n\n<%= nextRelease.notes %>"
+      }
     ]
+  ]
 }
