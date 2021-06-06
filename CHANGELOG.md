@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/hamono/Ticket/compare/v1.1.0...v1.1.1) (2021-06-06)
+
+
+### Bug Fixes
+
+* bug ([6af9a4e](https://github.com/hamono/Ticket/commit/6af9a4ee0aaab345c66b6bf87cb7ee426d19a610))
+
 # [1.1.0](https://github.com/hamono/Ticket/compare/v1.0.0...v1.1.0) (2021-06-06)
 
 
