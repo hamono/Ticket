@@ -27,6 +27,11 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Config
+        run: |
+            git config --global user.email "zpphamomo@gmail.com"
+            git config --global user.name "hamono"
+
       - name: Add
         run: git add .
 
