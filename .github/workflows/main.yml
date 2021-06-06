@@ -31,7 +31,7 @@ jobs:
         run: git add .
 
       - name: Commit
-        run: git commit -m "$GITHUB_ACTOR release"
+        run: git commit -m "release new version"
 
       - name: Push
         run: git push origin main
