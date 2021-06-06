@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/hamono/Ticket/compare/v1.2.1...v1.2.2) (2021-06-06)
+
+
+### Bug Fixes
+
+* 45 ([9287c28](https://github.com/hamono/Ticket/commit/9287c28e119c68befec50cd4891aa74a76257e32))
+
 ## [1.2.1](https://github.com/hamono/Ticket/compare/v1.2.0...v1.2.1) (2021-06-06)
 
 
