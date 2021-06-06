@@ -7,7 +7,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": ["build/*", "CHANGELOG.md"]
+        "assets": ["/build/**"]
       }
     ],
 
