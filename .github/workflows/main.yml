@@ -23,6 +23,28 @@ jobs:
 
       - name: Install dependencies
         run: yarn
+
+      - name: Config
+        run: |
+            git config --global user.email "zpphamomo@gmail.com"
+            git config --global user.name "hamono"
+
+      - name: Clean old files
+        run: |
+            git rm -r build
+            git commit -m "clean old build files"
+
+      - name: Build
+        run: yarn build
+
+      - name: Add
+        run: git add .
+
+      - name: Commit
+        run: git commit -m "$GITHUB_ACTOR release new version"
+
+      - name: Push
+        run: git push origin main
           
       - name: Release
         env:
