@@ -27,6 +27,12 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Add
+        run: git add .
+
+      - name: Commit
+        run: git commit -m "${{GITHUB_ACTOR}} release"
+
       - name: Push
         run: git push origin main
           
