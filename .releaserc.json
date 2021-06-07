@@ -7,10 +7,14 @@
     [
       "@semantic-release/github",
       {
-        "assets": ["build/"]
+        "assets": [["build"]]
       }
     ],
-
-    "@semantic-release/git"
+    [
+      "@semantic-release/git",
+      {
+        "assets": [["build"]]
+      }
+    ]
   ]
 }
